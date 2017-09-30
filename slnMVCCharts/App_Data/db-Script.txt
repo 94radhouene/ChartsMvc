@@ -1,0 +1,20 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[tblMVCCharts](
+	[ChartID] [int] IDENTITY(1,1) NOT NULL,
+	[Growth_Year] [int] NULL,
+	[Growth_Value] [float] NULL
+) ON [PRIMARY]
+
+
+insert into [dbo].[tblMVCCharts] (Growth_Year, Growth_Value) values (2008,50)
+insert into [dbo].[tblMVCCharts] (Growth_Year, Growth_Value) values (2009,70)
+insert into [dbo].[tblMVCCharts] (Growth_Year, Growth_Value) values (2010,80)
+insert into [dbo].[tblMVCCharts] (Growth_Year, Growth_Value) values (2011,90)
+insert into [dbo].[tblMVCCharts] (Growth_Year, Growth_Value) values (2012,120)
+insert into [dbo].[tblMVCCharts] (Growth_Year, Growth_Value) values (2013,150)
+insert into [dbo].[tblMVCCharts] (Growth_Year, Growth_Value) values (2014,100)
+insert into [dbo].[tblMVCCharts] (Growth_Year, Growth_Value) values (2015,300)
